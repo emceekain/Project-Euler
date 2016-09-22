@@ -13,7 +13,7 @@ def SumofMultiplesof3and5(n):
 	total = threes + fives
 	print (total)
 
-#Makes usable as  script
+#Makes fib usable as  script
 if __name__=="__main__":
 	import sys
-	SumofMultiplesof3and5(int(sys.argv[1]))
+	IntegerSum(int(sys.argv[1]))
